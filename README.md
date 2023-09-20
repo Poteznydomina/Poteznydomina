@@ -45,3 +45,81 @@ stre
 </table>
 
 </form
+
+
+
+
+
+
+
+
+
+<html>
+
+<head>
+
+<title>Części samochodowe Janka</title>
+
+</head>
+
+<body>
+
+<h1>Części samochodowe Janka</h1>
+
+<h2>Formularz zamówienia</h2>
+
+<form action="przetworzzamowienie.php" method=post>
+
+<table border=0>
+
+Extr bgcolor=#cccccc>
+
+<td width=150>Produkt</td>
+
+<td width=15>Ilość</td>
+
+</tr>
+
+□<tr>
+
+<td>Opony</td>
+
+<td align=left><input type="text" name="iloscopon" size=3 maxlength=3></td>
+
+</tr>
+
+<tr>
+
+<td>olej</td>
+
+<td align=left><input type="text" name="iloscoleju" size=3 maxlength=3></td>
+
+</tr>
+
+<tr>
+
+<td>Świece Zapłonowe</td>
+
+<td align=left><input type="text" name="iloscswiec" size=3 maxlength=3></td>
+
+</tr> <tr>
+
+<td>Adres</td>
+
+<td align=left><input type="text" name="adres" size=40 maxlength=40></td>
+
+</tr>
+
+<tr>
+
+<td colspan=2 align=center><input type=submit value="złóż zamówienie"></td
+
+>
+
+</tr> </table>
+
+L</form>
+
+</body>
+
+</html>
