@@ -1,60 +1,102 @@
-class FasadaPrzygotujSniadanie: def int(self, operacja_ekspres,
+from abc import abstractmethod
 
-operacja toster):
+2
 
-self.operacja ekspres = operacja_ekspres self.operacja toster operacja_toster
+6
 
-def rob_sniadanie (self):
+class AbstrakcyjnySzablon:
 
-print("Ladovanie podsystemow")
+def metoda szablonowa (self):
 
-self.operacja ekspresowa.wlacz_ekspres()
+self.procedural()
 
-self.operacja_toster.wlacz_toster()
+self.procedura2()
 
-print("Zaczynam dziale")
+self.procedura3()
 
-self.operacja ekspres.rob_kawe () self.operacja toster.rob_tosty()
+self.procedura4()
+
+self.procedura5()
+
+e
+
+self.procedura6()
+
+7
+
+8
+
+9
+
+10
+
+11
+
+12
+
+Ө
+
+def procedural(self):
+
+print("Wykonuje procedure nr 1")
+
+13
+
+14
 
 15
 
-26
+@abstractmethod
 
-class OperacjaEkspres:
+16
 
-def wlacz ekspres (self):
+def procedura2(self):
 
 17
 
-18
+pass
 
-print("Ekspres włączony. In Ekspres gotowy do działania")
+I
+
+18
 
 19
 
+def procedura3(self): pass
+
+el e
+
 20
-
-def rob_kawe (self):
-
-print("Kawa gotowa")
 
 21
 
 22
 
+def procedura4(self):
+
 23
+
+pass
 
 24
 
 25
 
-26
+@abstractmethod
+
+def procedura5(self): pass
 
 27
 
 28
 
 29
+
+def
+
+procedura6(self):
+
+print("Wykonuje procedure nr 6")
 
 30
 
@@ -64,26 +106,30 @@ print("Kawa gotowa")
 
 33
 
+class Model1(AbstrakcyjnySzablon);
+
+def procedura2(self):
+
+print("Procedura nr 2 wywołane przez Modell")
+
 34
 
-class OperacjaToster:
+35
 
-def wlacz toster (self):
+36
 
-print("Toster Właczony. In Toster gotowy do działania")
+def print("Procedura nr 5 wywołana przez Modell")
 
-def rob tosty(self):
+proceduras(self):
 
-print("Tasty gotowe")
+37
 
-name main
+38
 
-ekspres = OperacjaEkspres()
+39
 
-toster = OperacjaToster()
+class Model2(AbstrakcyjnySzablon):
 
-fasada = FasadaPrzygotujSniadanie (ekspres, toster)
-
-fasada.rob_sniadanie()
+def procedura2(self):
 
 
