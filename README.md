@@ -1,259 +1,89 @@
-- 👋 Hi, I’m @Poteznydomina
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+class FasadaPrzygotujSniadanie: def int(self, operacja_ekspres,
 
-<!---
-Poteznydomina/Poteznydomina is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
-<form action-"przetworzzamowien le php" method=post
+operacja toster):
 
-<table border-0
+self.operacja ekspres = operacja_ekspres self.operacja toster operacja_toster
 
-<tr bacolor #cccccc>
+def rob_sniadanie (self):
 
-<td width- 150">Produkt</td>
+print("Ladovanie podsystemow")
 
-</tr> stre
+self.operacja ekspresowa.wlacz_ekspres()
 
-<td>Opony</td>
+self.operacja_toster.wlacz_toster()
 
-<td align="center"><input type="text" name="iloscopon" size="3" maxlength="3"></td>
+print("Zaczynam dziale")
 
-</tr>
+self.operacja ekspres.rob_kawe () self.operacja toster.rob_tosty()
 
-<td>Olej</td> <td align="center"><input type="text" name="iloscoleju" size="3" maxlength="3"></td>
+15
 
-</tr>
+26
 
-str
+class OperacjaEkspres:
 
-<td>Swince Zapłonowe</td>
+def wlacz ekspres (self):
 
-<td align="center"><input type="text" name="iloscswiec" size="3" maxlength="3"></td>
+17
 
-</tr>
+18
 
-stre
+print("Ekspres włączony. In Ekspres gotowy do działania")
 
-<td colspan="2" align="center"><input type="submit" value="2162 zamówienie?></td>
+19
 
-</tr>
+20
 
-</table>
+def rob_kawe (self):
 
-</form
+print("Kawa gotowa")
 
+21
 
+22
 
+23
 
+24
 
+25
 
+26
 
+27
 
+28
 
-<html>
+29
 
-<head>
+30
 
-<title>Części samochodowe Janka</title>
+31
 
-</head>
+32
 
-<body>
+33
 
-<h1>Części samochodowe Janka</h1>
+34
 
-<h2>Formularz zamówienia</h2>
+class OperacjaToster:
 
-<form action="przetworzzamowienie.php" method=post>
+def wlacz toster (self):
 
-<table border=0>
+print("Toster Właczony. In Toster gotowy do działania")
 
-Extr bgcolor=#cccccc>
+def rob tosty(self):
 
-<td width=150>Produkt</td>
+print("Tasty gotowe")
 
-<td width=15>Ilość</td>
+name main
 
-</tr>
+ekspres = OperacjaEkspres()
 
-□<tr>
+toster = OperacjaToster()
 
-<td>Opony</td>
+fasada = FasadaPrzygotujSniadanie (ekspres, toster)
 
-<td align=left><input type="text" name="iloscopon" size=3 maxlength=3></td>
+fasada.rob_sniadanie()
 
-</tr>
 
-<tr>
-
-<td>olej</td>
-
-<td align=left><input type="text" name="iloscoleju" size=3 maxlength=3></td>
-
-</tr>
-
-<tr>
-
-<td>Świece Zapłonowe</td>
-
-<td align=left><input type="text" name="iloscswiec" size=3 maxlength=3></td>
-
-</tr> <tr>
-
-<td>Adres</td>
-
-<td align=left><input type="text" name="adres" size=40 maxlength=40></td>
-
-</tr>
-
-<tr>
-
-<td colspan=2 align=center><input type=submit value="złóż zamówienie"></td
-
->
-
-</tr> </table>
-
-L</form>
-
-</body>
-
-</html>
-
-
-
-
-
-
-
-
-
-
-
-
-$data-date('Hi, is y
-
-echo powienie przyjęte n':
-
-echo $data echo pr
-
-echo Zamwionis Panntwa wygląda nantega001 </p>
-
-if Silose #01
-
-echo przedniej stronie nie zato złożone żadne zawione! <br />
-
-else
-
-
-if ($iloscopon>0
-
-)
-
-39
-
-echo $iloscopon.
-
-opon<br />';
-
-40
-
-if($iloscoleju>0
-
-echo $iloscoleju. butelek oleju<br />';
-
-42
-
-if($iloscswiec>0) echo $iloscswiec. świec zapłonowych<br />':
-
-43
-
-44
-
-45
-
-46 47
-
-$wartosc 0.00;
-
-48 49
-
-define (CENAOPON, 100)/ define('CENAOLEJU, 10):
-
-define('CENASWIEC, 4);
-
-Swartosc -$iloscopon CENAOPON+ $iloscoleju CENAOLEJU Siloscawiec CENASWIEC:
-
-50
-
-51
-
-52
-
-53
-
-54
-
-55
-
-56
-
-Swartosc number_format($wartosc, 2, ., 9
-
-echo '<P>Wartość zamówienia wynosi .Swartosc.'</p>'
-
-;
-
-57
-
-58
-
-59
-
-echo '<P>Adres wysylki to '.$adres. '</p>';
-
-60
-
-61
-
-Sciagwyjsciowy $data."\t".$iloscopon." opon \t".Siloscoleju." butelek oleju\t"
-
-Siloscswiec," swiec zapłonowych\t".Swartosc "PLN/t". $adres. "
-
-// otwarcie pliku w celu dopisywania
-
-@ $wp fopen("$DOCUMENT_ROOT/../zamowienia/zamowienia.txt", 'ab');
-
-66
-
-67
-
-68
-
-69
-
-if (!$wp)
-
-t
-
-echo '<p><strong> Zamówienie Państwa nie może zostać przyjęte w tej .'Proszę spróbować później.</strong></p></body></html>';
-
-chwili.
-
-exit;
-
-formularzht
-
-fwrite ($wp, $ciagwyjsciowy, strlen($ciagwyjsciowy)); fclose($wp);
-
-echo '<p>Zamówienie zapisane.</p>';
-
--?>
-
-</body>
-
-</html>
